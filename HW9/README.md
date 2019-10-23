@@ -35,6 +35,9 @@ The **nohup.out** file is uploaded to this repository.
  
 ![Global Step - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/4_globalStep.png)
 
+ **Learning Rate**
+ 
+![Learning Rate - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/5_Learning%20rate.png)
 
 Also, answer the following (simple) questions:
 * How long does it take to complete the training run? (hint: this session is on distributed training, so it *will* take a while)
