@@ -62,8 +62,11 @@ Also, answer the following (simple) questions:
 * How big was your training set (mb)? How many training lines did it contain?
   **Answer**:
   root@v100a:/data/wmt16_de_en# wc -l  train.de
+  
   4562102 train.de
+  
   root@v100a:/data/wmt16_de_en# wc -l  train.en
+  
   4562102 train.en
 
 
