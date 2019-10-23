@@ -31,6 +31,11 @@ The **nohup.out** file is uploaded to this repository.
 ![Eval Loss - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/3_eval_loss.png)
 
 
+ **Global Step**
+ 
+![Global Step - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/4_globalStep.png)
+
+
 Also, answer the following (simple) questions:
 * How long does it take to complete the training run? (hint: this session is on distributed training, so it *will* take a while)
 * Do you think your model is fully trained? How can you tell?
