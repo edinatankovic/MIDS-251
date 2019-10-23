@@ -50,10 +50,15 @@ Also, answer the following (simple) questions:
 * How long does it take to complete the training run? (hint: this session is on distributed training, so it *will* take a while)
   **Answer: the training took 21h 38m 48s, it was limited to 50,000 steps, I made change in the cofig file**
 * Do you think your model is fully trained? How can you tell?
+ **Answer: the last point on the BLEU graph is still moving, I suspect the training is not finished**
 * Were you overfitting?
+  **Answer: Possibly, the eval loss has been approaching a constant value**
 * Were your GPUs fully utilized?
+  **Answer: Possibly**
 * Did you monitor network traffic (hint:  ```apt install nmon ```) ? Was network the bottleneck?
+  **Answer: Possibly**
 * Take a look at the plot of the learning rate and then check the config file.  Can you explan this setting?
+  **Answer: there is a warmup setting set to 8k (lr_policy_params: warmup_steps in /data/transformer-base.py, which is why it increases at first and then it decays normally**
 * How big was your training set (mb)? How many training lines did it contain?
 * What are the files that a TF checkpoint is comprised of?
 * How big is your resulting model checkpoint (mb)?
