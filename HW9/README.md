@@ -18,6 +18,8 @@ Please submit the nohup.out file along with screenshots of your Tensorboard indi
 The **nohup.out** file is uploaded to this repository.
 ## The Graphs:
 
+NOTE: "Ignore outliers in chart scaling" was selected.
+
  **BLEU Graph**
  
 ![BLEU - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/1_1_Eval_BLEU_Score.png)
@@ -46,6 +48,7 @@ The **nohup.out** file is uploaded to this repository.
 
 Also, answer the following (simple) questions:
 * How long does it take to complete the training run? (hint: this session is on distributed training, so it *will* take a while)
+  **Answer: the training took 21h 38m 48s, it was limited to 50,000 steps, I made change in the cofig file**
 * Do you think your model is fully trained? How can you tell?
 * Were you overfitting?
 * Were your GPUs fully utilized?
