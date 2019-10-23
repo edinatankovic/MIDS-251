@@ -95,6 +95,13 @@ Also, answer the following (simple) questions:
 
 
 * What are the files that a TF checkpoint is comprised of?
+  **Answer** Basically they contain a path to the file that has the last model saved down.
+  Here is a sample output:
+
+  model_checkpoint_path: "model.ckpt-0"
+
+  all_model_checkpoint_paths: "model.ckpt-0"
+
 * How big is your resulting model checkpoint (mb)?
 * Remember the definition of a "step". How long did an average step take?
 * How does that correlate with the observed network utilization between nodes?
