@@ -18,7 +18,7 @@ nohup.out file is uploaded to this repository.
 
 Please submit the nohup.out file along with screenshots of your Tensorboard indicating training progress (Blue score, eval loss) over time.  
 ## The Graphs:
-
+![BLEU - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/1_1_Eval_BLEU_Score.png)
 
 
 Also, answer the following (simple) questions:
