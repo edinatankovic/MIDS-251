@@ -60,6 +60,13 @@ Also, answer the following (simple) questions:
 * Take a look at the plot of the learning rate and then check the config file.  Can you explan this setting?
   **Answer: there is a warmup setting set to 8k (lr_policy_params: warmup_steps in /data/transformer-base.py, which is why it increases at first and then it decays normally**
 * How big was your training set (mb)? How many training lines did it contain?
+  **Answer**:
+  root@v100a:/data/wmt16_de_en# wc -l  train.de
+  4562102 train.de
+  root@v100a:/data/wmt16_de_en# wc -l  train.en
+  4562102 train.en
+
+
 * What are the files that a TF checkpoint is comprised of?
 * How big is your resulting model checkpoint (mb)?
 * Remember the definition of a "step". How long did an average step take?
