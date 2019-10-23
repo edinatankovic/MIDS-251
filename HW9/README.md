@@ -22,6 +22,14 @@ The **nohup.out** file is uploaded to this repository.
  
 ![BLEU - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/1_1_Eval_BLEU_Score.png)
 
+ **Gradient Loss**
+ 
+![Gradient Loss - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/2_GlobalGradientLossScale.png)
+
+ **Eval Loss**
+ 
+![Eval Loss - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/3_eval_loss.png)
+
 
 Also, answer the following (simple) questions:
 * How long does it take to complete the training run? (hint: this session is on distributed training, so it *will* take a while)
