@@ -16,7 +16,12 @@ nohup.out file is uploaded to this repository.
 
 ### Submission: Assignment questions answered:
 
-Please submit the nohup.out file along with screenshots of your Tensorboard indicating training progress (Blue score, eval loss) over time.  Also, answer the following (simple) questions:
+Please submit the nohup.out file along with screenshots of your Tensorboard indicating training progress (Blue score, eval loss) over time.  
+## The Graphs:
+
+
+
+Also, answer the following (simple) questions:
 * How long does it take to complete the training run? (hint: this session is on distributed training, so it *will* take a while)
 * Do you think your model is fully trained? How can you tell?
 * Were you overfitting?
