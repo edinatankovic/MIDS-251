@@ -103,5 +103,15 @@ Also, answer the following (simple) questions:
   all_model_checkpoint_paths: "model.ckpt-0"
 
 * How big is your resulting model checkpoint (mb)?
+  **Answer**: 852 Mb.
+  
+  root@v100a:/data/en-de-transformer# ls -lrt *ckpt*
+  
+   -rw-r--r-- 1 root root     36131 Oct 20 17:24 model.ckpt-0.index
+   
+   -rw-r--r-- 1 root root 852267044 Oct 20 17:24 model.ckpt-0.data-00000-of-00001
+   
+   -rw-r--r-- 1 root root  15374541 Oct 20 17:24 model.ckpt-0.meta
+   
 * Remember the definition of a "step". How long did an average step take?
 * How does that correlate with the observed network utilization between nodes?
