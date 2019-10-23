@@ -10,14 +10,16 @@ ibmcloud sl vs create --datacenter= wdc07 --hostname=v100a --domain=edina.com --
 
 ibmcloud sl vs create --datacenter= wdc07 --hostname=v100b --domain=edina.com --image=2263543 --billing=hourly  --network 1000 --key=1595886 --flavor AC2_16X120X100 –san
 
-## Output:
-
-nohup.out file is uploaded to this repository.
 
 ### Submission: Assignment questions answered:
 
 Please submit the nohup.out file along with screenshots of your Tensorboard indicating training progress (Blue score, eval loss) over time.  
+
+The **nohup.out** file is uploaded to this repository.
 ## The Graphs:
+
+ **BLEU Graph**
+ 
 ![BLEU - 1 VM](https://github.com/edinatankovic/MIDS-251/blob/master/HW9/Images/1_1_Eval_BLEU_Score.png)
 
 
