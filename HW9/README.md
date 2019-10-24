@@ -114,6 +114,7 @@ Also, answer the following (simple) questions:
    -rw-r--r-- 1 root root  15374541 Oct 20 17:24 model.ckpt-0.meta
    
 * Remember the definition of a "step". How long did an average step take?
-    **Answer**: If I divide the time it took to run, with the number of steps (50,000) I get 1.558 seconds.
+   
+   **Answer**: If I divide the time it took to run, with the number of steps (50,000) I get 1.558 seconds.
     
 * How does that correlate with the observed network utilization between nodes?
