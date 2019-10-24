@@ -115,6 +115,6 @@ Also, answer the following (simple) questions:
    
 * Remember the definition of a "step". How long did an average step take?
    
-   **Answer**: If I divide the time it took to run, with the number of steps (50,000) I get 1.558 seconds.
+   **Answer**:  Step is one iteration of gradient descent learning algorithm. If I divide the time it took to run, with the number of steps (50,000) I get 1.558 seconds.
     
 * How does that correlate with the observed network utilization between nodes?
