@@ -48,7 +48,7 @@ NOTE: "Ignore outliers in chart scaling" was selected.
 
 Also, answer the following (simple) questions:
 * How long does it take to complete the training run? (hint: this session is on distributed training, so it *will* take a while)
-  **Answer: the training took 21h 38m 48s, it was limited to 50,000 steps, I made change in the cofig file**
+  **Answer: the training took 21h 38m 48s, it was limited to 50,000 steps, and mixed flotation I made change in the cofig file**
 * Do you think your model is fully trained? How can you tell?
  **Answer: the last point on the BLEU graph is still moving, I suspect the training is not finished**
 * Were you overfitting?
