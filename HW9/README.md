@@ -95,7 +95,7 @@ Also, answer the following (simple) questions:
 
 
 * What are the files that a TF checkpoint is comprised of?
-  **Answer** Basically they contain a path to the file that has the last model saved down. The .ckpt is a binary file which contains all the values of the weights, biases, gradients and all the other variables saved. 
+  **Answer** Basically they contain a path to the file that has the last model saved down. The .ckpt is a binary file which contains all the values of the weights, biases, gradients and all the other variables saved. There is also a file named checkpoint which simply keeps a record of latest checkpoint files saved.
   Here is a sample output:
 
   model_checkpoint_path: "model.ckpt-0"
